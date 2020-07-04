@@ -13828,6 +13828,7 @@ GameObject:
   - component: {fileID: 1821649370}
   - component: {fileID: 1821649373}
   - component: {fileID: 1821649374}
+  - component: {fileID: 1821649375}
   m_Layer: 0
   m_Name: "\u5FCD\u8005"
   m_TagString: Untagged
@@ -13955,6 +13956,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.5, y: 4}
   m_Direction: 0
+--- !u!114 &1821649375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821649369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9103bea94f964b43bb7d032377c03c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  HP: 999.9
+  coin: 0
+  height: 500
+  soundJump: {fileID: 0}
+  soundSlide: {fileID: 0}
+  sounHit: {fileID: 0}
+  dead: 0
 --- !u!1001 &1827274844
 PrefabInstance:
   m_ObjectHideFlags: 0
