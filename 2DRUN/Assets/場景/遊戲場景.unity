@@ -5483,6 +5483,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &244576830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 244576831}
+  - component: {fileID: 244576832}
+  m_Layer: 0
+  m_Name: "\u7DF4\u7FD2\u7528\u7269\u4EF6"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &244576831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244576830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 464.90393, y: 495.04453, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &244576832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244576830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3503fc2e784190042b31fafecb728548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &256733188
 GameObject:
   m_ObjectHideFlags: 0
@@ -12662,7 +12705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &889978223
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13972,9 +14015,9 @@ MonoBehaviour:
   HP: 999.9
   coin: 0
   height: 500
-  soundJump: {fileID: 0}
-  soundSlide: {fileID: 0}
-  sounHit: {fileID: 0}
+  soundJump: {fileID: 8300000, guid: 5efd1e79f4277264f9ed57310134e6fa, type: 3}
+  soundSlide: {fileID: 8300000, guid: 82cc5880eeaec0d4f8af2f9c1fb2cfd4, type: 3}
+  sounHit: {fileID: 8300000, guid: 323493fe991e2fb4a863236a1842e7b0, type: 3}
   dead: 0
 --- !u!1001 &1827274844
 PrefabInstance:
@@ -14710,7 +14753,7 @@ GameObject:
   - component: {fileID: 2127028072}
   - component: {fileID: 2127028071}
   m_Layer: 5
-  m_Name: Text
+  m_Name: "\u91CD\u65B0\u904A\u6232"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
